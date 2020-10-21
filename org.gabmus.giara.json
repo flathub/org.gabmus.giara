@@ -20,6 +20,9 @@
             "autodelete": false
         }
     },
+    "cleanup-commands": [
+        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
+    ],
     "modules": [
         {
             "name": "libhandy",
@@ -238,62 +241,6 @@
             ]
         },
         {
-            "name": "python-click",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/pallets/click",
-                    "tag": "7.1.2"
-                }
-            ]
-        },
-        {
-            "name": "python-itsdangerous",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/pallets/itsdangerous",
-                    "tag": "1.1.0"
-                }
-            ]
-        },
-        {
-            "name": "python-werkzeug",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/pallets/werkzeug/archive/1.0.1.tar.gz",
-                    "sha256": "5de48c138e85c128c0bd80b7dd555a5cba2f9dd4785616bccceab268d7955a2c"
-                }
-            ]
-        },
-        {
-            "name": "python-flask",
-            "buildsystem": "simple",
-            "build-commands": [
-                "python3 setup.py install --prefix=/app --root=/"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/pallets/flask/archive/1.1.2.tar.gz",
-                    "sha256": "6da812f0fb52ad1ccfb5b3868b1dd20e420cc6e77379c2a4ecbaccd3eceb8923"
-                }
-            ]
-        },
-        {
             "name": "python-beautifulsoup",
             "buildsystem": "simple",
             "build-commands": [
@@ -310,7 +257,6 @@
         {
             "name": "giara",
             "buildsystem": "meson",
-            "builddir": true,
             "config-opts": [
                 "--buildtype=release"
             ],
@@ -318,7 +264,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GabMus/giara",
-                    "tag": "0.1.1"
+                    "tag": "0.2"
                 }
             ]
         }
