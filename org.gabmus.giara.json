@@ -265,6 +265,10 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/giara",
                     "tag": "0.3"
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
             ]
         }

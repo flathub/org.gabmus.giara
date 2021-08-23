@@ -1,0 +1,27 @@
+diff --git a/data/org.gabmus.giara.appdata.xml.in b/data/org.gabmus.giara.appdata.xml.in
+index 8aa40bd..daa772e 100644
+--- a/data/org.gabmus.giara.appdata.xml.in
++++ b/data/org.gabmus.giara.appdata.xml.in
+@@ -18,14 +18,14 @@
+     <launchable type="desktop-id">org.gabmus.giara.desktop</launchable>
+     <screenshots>
+         <screenshot type="default">
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/mainwindow.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot01.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot02.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot03.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot04.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot05.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot06.png</image>
+-            <image>https://gitlab.gnome.org/World/giara/raw/website/website/screenshots/scrot07.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/mainwindow.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot01.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot02.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot03.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot04.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot05.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot06.png</image>
++            <image>https://gitlab.gnome.org/World/giara/raw/website/static/screenshots/scrot07.png</image>
+         </screenshot>
+     </screenshots>
+     <url type="homepage">https://giara.gabmus.org</url>
