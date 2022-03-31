@@ -2,7 +2,7 @@
     "app-id": "org.gabmus.giara",
     "command": "giara",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--device=dri",
@@ -28,112 +28,6 @@
         "/lib/debug"
     ],
     "modules": [
-        {
-            "name": "sassc",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/sass/sassc.git",
-                    "tag": "3.6.2"
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "autogen.sh",
-                    "commands": [
-                        "autoreconf -si"
-                    ]
-                }
-            ],
-            "modules": [
-                {
-                    "name": "libsass",
-                    "cleanup": [
-                        "*"
-                    ],
-                    "sources": [
-                        {
-                            "type": "git",
-                            "url": "https://github.com/sass/libsass.git",
-                            "tag": "3.6.5"
-                        },
-                        {
-                            "type": "script",
-                            "dest-filename": "autogen.sh",
-                            "commands": [
-                                "autoreconf -si"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "gtk",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dtests=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gtk",
-                    "//branch": "master",
-                    "tag": "4.4.0"
-                }
-            ]
-        },
-        {
-            "name": "pygobject",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dtests=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/pygobject",
-                    "commit": "c8518e12a10e04a1d6cd7c3ffd685f08fdca7194"
-                },
-                {
-                    "type": "patch",
-                    "path": "172.patch",
-                    "sha256": "369cdb693d0e93e6a08e6df807d34f40f3531f244b3ec1ec8965ae45dc0d7f13"
-                }
-            ]
-        },
-        {
-            "name": "libadwaita",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dexamples=false",
-                "-Dtests=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "//branch": "main",
-                    "tag": "1.0.0-alpha.2"
-                }
-            ]
-        },
-        {
-            "name": "gtksourceview",
-            "buildsystem": "meson",
-            "config-opts": [
-                "--buildtype=release"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gtksourceview",
-                    "tag": "5.1.0"
-                }
-            ]
-        },
         {
             "name": "python-setuptools-scm",
             "buildsystem": "simple",
