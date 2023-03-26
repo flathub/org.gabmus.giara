@@ -23,10 +23,6 @@
     "cleanup-commands": [
         "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
     ],
-    "cleanup": [
-        "/include",
-        "/lib/debug"
-    ],
     "modules": [
         "python-deps.json",
         {
