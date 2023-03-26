@@ -2,7 +2,7 @@
     "app-id": "org.gabmus.giara",
     "command": "giara",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "finish-args": [
         "--device=dri",
@@ -14,7 +14,7 @@
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
             "directory": "lib/ffmpeg",
-            "version": "21.08",
+            "version": "22.08.9",
             "add-ld-path": ".",
             "no-autodownload": true,
             "autodelete": false
@@ -34,9 +34,9 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "commit": "3d4aae79c49751d57a075a8b94f0dc96ac0d5b2f"
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.6.0/blueprint-compiler-v0.6.0.tar.gz",
+                    "sha256": "c9e3652b66803c1de6a24b71f4fa4638b32260b4b04b93c2f3d958e1ce2a175e"
                 }
             ]
         },
@@ -50,7 +50,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/giara",
-                    "tag": "1.0.1"
+                    "tag": "1.1.0"
                 }
             ]
         }
