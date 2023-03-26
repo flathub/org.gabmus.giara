@@ -7,38 +7,38 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/9c/d8/909c4089dbe4ade9f9705f143c9f13f065049a9d5e7d34c828aefdd0a97c/beautifulsoup4-4.11.1-py3-none-any.whl",
-            "sha256": "58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"
+            "url": "https://files.pythonhosted.org/packages/ee/a7/06b189a2e280e351adcef25df532af3c59442123187e228b960ab3238687/beautifulsoup4-4.12.0-py3-none-any.whl",
+            "sha256": "2130a5ad7f513200fae61a17abb5e338ca980fa28c439c0571014bc0217e9591"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/37/45/946c02767aabb873146011e665728b680884cd8fe70dde973c640e45b775/certifi-2021.10.8-py2.py3-none-any.whl",
-            "sha256": "d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569"
+            "url": "https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl",
+            "sha256": "4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/06/b3/24afc8868eba069a7f03650ac750a778862dc34941a4bebeb58706715726/charset_normalizer-2.0.12-py3-none-any.whl",
-            "sha256": "6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df"
+            "url": "https://files.pythonhosted.org/packages/ef/81/14b3b8f01ddaddad6cdec97f2f599aa2fa466bd5ee9af99b08b7713ccd29/charset_normalizer-3.1.0-py3-none-any.whl",
+            "sha256": "3d9098b479e78c85080c98e1e35ff40b4a31d8953102bb0fd7d1b6f8a2111a3d"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl",
-            "sha256": "84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"
+            "url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+            "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a7/39/c1c7f390413f378b5291a7943e05bd2a4df772b5526f17cb8fa5e6fcf497/mistune-2.0.2-py2.py3-none-any.whl",
-            "sha256": "6bab6c6abd711c4604206c7d8cad5cd48b28f072b4bb75797d74146ba393a049"
+            "url": "https://files.pythonhosted.org/packages/9f/e5/780d22d19543f339aad583304f58002975b586757aa590cbe7bea5cc6f13/mistune-2.0.5-py2.py3-none-any.whl",
+            "sha256": "bad7f5d431886fcbaf5f758118ecff70d31f75231b34024a1341120340a65ce8"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/4b/83/090146d7871d90a2643d469c319c1d014e41b315ab5cf0f8b4b6a764ef31/Pillow-9.1.0.tar.gz",
-            "sha256": "f401ed2bbb155e1ade150ccc63db1a4f6c1909d3d378f7d1235a44e90d75fb97"
+            "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+            "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f4/cd/6a4497bf0a754b13b6f75052fc9672762600d933708e663f0f287bd85407/praw-7.5.0-py3-none-any.whl",
-            "sha256": "28f66a750ffb2aa5c46378942037dfbf9640bc02cd132d4da8a0e9b836581a8e"
+            "url": "https://files.pythonhosted.org/packages/b3/93/55ae62910b94b46ecdd0ee8765289304f8df8deeaa1df7a96b0831c637ff/praw-7.7.0-py3-none-any.whl",
+            "sha256": "22155c4b3006733a5ab0754136cf2226917747b61ec037ee335246fe0db5420e"
         },
         {
             "type": "file",
@@ -52,8 +52,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/2d/61/08076519c80041bc0ffa1a8af0cbd3bf3e2b62af10435d269a9d0f40564d/requests-2.27.1-py2.py3-none-any.whl",
-            "sha256": "f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"
+            "url": "https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl",
+            "sha256": "64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa"
         },
         {
             "type": "file",
@@ -62,8 +62,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7d/1e/294d3cb3fc81212914043beba5eeb38882c0b449402353c549745e823fcf/soupsieve-2.3.2-py3-none-any.whl",
-            "sha256": "a714129d3021ec17ce5be346b1007300558b378332c289a1a20e7d4de6ff18a5"
+            "url": "https://files.pythonhosted.org/packages/d2/70/2c92d7bc961ba43b7b21032b7622144de5f97dec14b62226533f6940798e/soupsieve-2.4-py3-none-any.whl",
+            "sha256": "49e5368c2cda80ee7e84da9dbe3e110b70a4575f196efb74e51b94549d921955"
         },
         {
             "type": "file",
@@ -72,13 +72,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ec/03/062e6444ce4baf1eac17a6a0ebfe36bb1ad05e1df0e20b110de59c278498/urllib3-1.26.9-py2.py3-none-any.whl",
-            "sha256": "44ece4d53fb1706f667c9bd1c648f5469a2ec925fcf3a776667042d645472c14"
+            "url": "https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl",
+            "sha256": "aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a1/9e/8ddb04ef21ea3dfe3924b884dc11fa785df662af23e049ec2d62eaba707d/websocket_client-1.3.2-py3-none-any.whl",
-            "sha256": "722b171be00f2b90e1d4fb2f2b53146a536ca38db1da8ff49c972a4e1365d0ef"
+            "url": "https://files.pythonhosted.org/packages/6d/9a/6c793729c9d48fcca155ce55e4dfafacffb7fb52a62e3ae2198846c31af6/websocket_client-1.5.1-py3-none-any.whl",
+            "sha256": "cdf5877568b7e83aa7cf2244ab56a3213de587bbe0ce9d8b9600fc77b455d89e"
         }
     ]
 }
