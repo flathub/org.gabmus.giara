@@ -50,6 +50,10 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/giara",
                     "tag": "1.1.0"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
